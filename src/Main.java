@@ -1,5 +1,8 @@
 import java.time.LocalDate;
 
+import javax.swing.text.AbstractDocument.Content;
+
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -17,6 +20,8 @@ public class Main {
         curso2.setTitulo("Curso Delphi");
         curso2.setDescricao("Descrição curso Delphi");
         curso2.setCargaHoraria(10);      
+
+        Conteudo conteudo = new Curso();
 
         Mentoria mentoria = new Mentoria();
 
